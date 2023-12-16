@@ -1,25 +1,46 @@
-body{
+body {
     box-sizing: border-box;
 }
 
-nav#mainNav{
+nav#mainNav {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
-    background-color:#2c3e50;
-    
+    background-color: #2c3e50;
+
 }
 
-a[class*=navbar-brand]{
+a[class*=navbar-brand] {
     color: #fff;
     font-size: 1.75em;
     font-weight: 700;
-    
+
 
 }
 
-a[class*=nav-link]{
+a[class*=nav-link] {
     color: #fff;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
     font-weight: 600;
+}
+
+header {
+    background-color: #1abc9c;
+    padding-bottom: 96px;
+    padding-top: 200px;
+}
+
+img[class*="masthead"] {
+    width: 15rem;
+    background-color: #fff;
+    border-radius: 100%;
+}
+h1[class*="masthead"]{
+    font-size: 4rem;
+    line-height: 3.5rem;
+}
+p[class*="masthead"]{
+    font-size: 1.5rem;
+    margin-top: 24px;
+    margin-bottom: 0;
 }
