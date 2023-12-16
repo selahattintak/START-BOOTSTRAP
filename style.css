@@ -35,12 +35,29 @@ img[class*="masthead"] {
     background-color: #fff;
     border-radius: 100%;
 }
-h1[class*="masthead"]{
+
+h1[class*="masthead"] {
     font-size: 4rem;
     line-height: 3.5rem;
 }
-p[class*="masthead"]{
+
+p[class*="masthead"] {
     font-size: 1.5rem;
     margin-top: 24px;
     margin-bottom: 0;
+}
+
+section#portfolio {
+    padding: 96px 0px;
+}
+
+h2[class*="page"] {
+    font-size: 3rem;
+    line-height: 2.5rem;
+}
+
+div[class*=portfolio-item] {
+    border-radius: 0.5rem;
+    overflow: hidden;
+    max-width: 25rem;
 }
