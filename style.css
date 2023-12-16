@@ -48,7 +48,7 @@ p[class*="masthead"] {
 }
 
 section#portfolio {
-    padding: 96px 0px;
+    padding: 6rem 0rem;
 }
 
 h2[class*="page"] {
@@ -60,4 +60,18 @@ div[class*=portfolio-item] {
     border-radius: 0.5rem;
     overflow: hidden;
     max-width: 25rem;
+}
+section#about{
+    background-color: #1abc9c;
+    padding: 6rem 0rem;
+}
+a.btn-xl{
+    font-size: 1.25rem;
+    padding: 1rem 1.75rem;
+    font-weight: 400;
+    border-color: #fff;
+
+}
+p.lead{
+    font-weight: 400
 }
